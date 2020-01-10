@@ -25,3 +25,5 @@ console.log(obj);
   }
 
 */
+
+// chrome://inspect to use chrome debugger

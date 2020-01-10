@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const files = ['.bash_profile', 'kjkjhh', '.npmrc'];
 
+// forEach - apply the callback function on each item of files collection
 files.forEach(file => {
   try {
     const filePath = path.resolve(process.env.HOME, file);

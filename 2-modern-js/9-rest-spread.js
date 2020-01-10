@@ -7,7 +7,7 @@ const data = {
   lastName: 'Doe',
 };
 
-const { temp1, temp2, ...person } = data;
+const { temp1, temp2, ...person } = data;// data object will have property firstname and lastname
 
 const newArray = [...restOfItems];
 

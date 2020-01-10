@@ -1,0 +1,5 @@
+function today(){
+return "11";
+}
+today
+today()

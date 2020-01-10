@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest",
+    "posttest": "node -e 'console.log(\" i am post test \")'",
     "check": "eslint server.js"
   },
   "keywords": [],
